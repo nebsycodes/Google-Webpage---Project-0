@@ -1,0 +1,83 @@
+body {
+font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: auto;
+}
+/* need to make it responsive so that they dont overlap when window is smaller */
+.gooble {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 2px;
+    position: fixed;
+    top: 30%;
+    margin-bottom: 20px;
+    font-size: 70px;
+    margin: auto;
+    display: flex;
+    color: rgb(62, 62, 62);
+}
+
+/* need to make it responsive so that they dont overlap when window is smaller */
+.search {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    top: 50%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
+.gooble :first-letter{
+    color: rgb(210, 255, 161);
+    font-size: larger;
+ }
+
+.advsearch {
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    text-align: left;
+    color: rgb(66, 66, 66);
+}
+
+label {
+    justify-content: left;
+    text-align: left;
+    width: 500px;
+    height: 20px;
+    float: left;
+}
+
+.advsearch input {
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: 2px;
+    position: relative;
+    display: block;
+}
+
+.buttons {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+}
+
+.buttons a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
